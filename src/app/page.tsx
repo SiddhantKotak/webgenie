@@ -6,8 +6,7 @@ const Page = () =>{
           Click me
         </Button>
       </div>
-    )
-
+    )    
 }
 
 export default Page;
