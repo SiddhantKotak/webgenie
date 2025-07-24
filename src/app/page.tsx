@@ -1,10 +1,12 @@
+
 import { Button } from "@/components/ui/button";
-const Page = () =>{
+import { useTRPC } from "@/trpc/client";
+import { useQuery } from "@tanstack/react-query";
+import { caller } from "@/trpc/server";
+const Page = async () =>{
     return(
       <div>
-        <Button>
-          Click me
-        </Button>
+        
       </div>
     )    
 }
